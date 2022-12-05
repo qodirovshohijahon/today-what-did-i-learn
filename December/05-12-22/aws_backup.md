@@ -10,7 +10,6 @@
 - EFS
 - EC2
 - DynamoDB
-
 - EBS
 - RDS
 - Storage Gateway
@@ -19,12 +18,20 @@
 |---------------------|----------------|
 | :one:               | :two:          |
 |---------------------|----------------|
-|                     |                |
-|```mermaid           |                |
-|graph TD;            |                |
-|  Service_level_backups-->EFS; |       |
-|  Service_level_backups-->EC2; |         |
-|  Service_level_backups-->DynamoDB; |  |
-|```        |               |
-|---------------------|---------------|
-- {+ addition 1 +}
+```mermaid
+graph TD;
+  Service_level_backups-->EFS;
+  Service_level_backups-->EC2;
+  Service_level_backups-->DynamoDB;
+```
+
+
+```mermaid
+graph TD;
+  Service_level_snapshots-->EBS;
+  Service_level_snapshots-->RDS;
+  Service_level_snapshots-->Storage Gateway;
+  Service_level_snapshots-->Aurora;
+```
+
+{+ addition 1 +}
