@@ -16,11 +16,15 @@
 - Storage Gateway
 - Aurora
 
-```mermaid
-graph TD;
-  Service_level_backups-->EFS;
-  Service_level_backups-->EC2;
-  Service_level_backups-->DynamoDB;
-```
-
+|---------------------|----------------|
+| :one:               | :two:          |
+|---------------------|----------------|
+|                     |                |
+|```mermaid           |                |
+|graph TD;            |                |
+|  Service_level_backups-->EFS; |       |
+|  Service_level_backups-->EC2; |         |
+|  Service_level_backups-->DynamoDB; |  |
+|```        |               |
+|---------------------|---------------|
 - {+ addition 1 +}
