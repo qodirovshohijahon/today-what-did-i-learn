@@ -25,6 +25,9 @@ graph TD;
   Service_level_backups-->DynamoDB;
 ```
 
+------------------
+
+------------------
 
 ```mermaid
 graph TD;
@@ -34,4 +37,17 @@ graph TD;
   Service_level_snapshots-->Aurora;
 ```
 
-{+ addition 1 +}
+**Service level backup** - uses default backup mechanism of each service not of these services the first three services are backed by using service layer 
+
+**Service level snapshots** - whenever we take a backup of for example EBS volumes we always curse(need fix) snapshots of the volumes and similarly when we take the backup of EFS we don't create the snapshots but we take the backup of the files which are stored in EFS shared 
+
+
+**Backup vaults** 
+- is a **container** which stores all of your backups 
+- you have to create multiple vaults in order to manage backups
+- e.i if we have an app called myapp then we should create one vault for my this app and all the resources belonged to my app
+
+**Backup plans** 
+- it allows us to configure when to take the backups 
+  - we can define the frequency of taking the backups 
+  - for how long we want to retain those backups  
