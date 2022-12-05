@@ -30,7 +30,7 @@ graph TD;
 graph TD;
   Service_level_snapshots-->EBS;
   Service_level_snapshots-->RDS;
-  Service_level_snapshots-->Storage Gateway;
+  Service_level_snapshots-->Storage_Gateway;
   Service_level_snapshots-->Aurora;
 ```
 
