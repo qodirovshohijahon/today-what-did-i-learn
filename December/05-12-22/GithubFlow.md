@@ -1,0 +1,6 @@
+![GithubFlow](./img/1.Git_flow.PNG)
+![CI](./img/2.CI.PNG)
+![CI](./img/3.Goal_CI.PNG)
+![CI](./img/4.CI_steps.PNG)
+![CI](./img/5.CD_benefits.PNG)
+![CI](./img/6.CD.PNG)

@@ -6,3 +6,7 @@
   - services. 
 - an example of a SLA norm for an application is: 
   - availability of 99,9% with maximum 3 incidents per year and maximum 3 hours outage. 
+
+
+
+
