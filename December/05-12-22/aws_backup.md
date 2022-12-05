@@ -18,10 +18,9 @@
 
 ```mermaid
 graph TD;
-  A-->B;
-  A-->C;
-  B-->D;
-  C-->D;
+  Service level backups-->EFS;
+  Service level backups-->EC2
+  Service level backups-->DynamoDB
 ```
 
 - {+ addition 1 +}
