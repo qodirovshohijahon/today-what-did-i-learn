@@ -48,3 +48,5 @@ graph TD;
 - it allows us to configure when to take the backups 
   - we can define the frequency of taking the backups 
   - for how long we want to retain those backups  
+- **Backup Rule** - when, (cron/rate)
+- **Backup Resources Selection** - whose & what resources 
