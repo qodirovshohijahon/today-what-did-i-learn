@@ -15,9 +15,6 @@
 - Storage Gateway
 - Aurora
 
-|---------------------|----------------|
-| :one:               | :two:          |
-|---------------------|----------------|
 ```mermaid
 graph TD;
   Service_level_backups-->EFS;
