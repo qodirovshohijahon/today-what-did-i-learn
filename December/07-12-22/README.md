@@ -17,8 +17,9 @@
 
     - default CIDR block of `10.0.0.0/16`
     **4. Какие есть зарезервированные IP адреса в  subnet, сколько их, для чего используются?**
-
+    - 
     Какие базовые средства security есть в VPC? (Security groups, NACL -  надо мочь объяснить как они работатют, специфику каждого из них)
+    
     Какие вы знаете VPC Gateways? (Internet Gateway, NAT gateway, Transit Gateway, Virtual Private Gateway, Direct Connect Gateway - стоит разобраться в специфике каждого из них, для чего используется, как настраивается)
     Что такое VPC Endpoints? Какие есть? Как используются и как настраиваются? (Gateway Endpoint, Interface  Endpoint нужно достаточно хорошо понимать отличия и процесс настройки, в том числе DNS записи)
     Как дать доступ к Endpoint из on-prem? (Нужно разобраться в деталях Site-to-site VPN, Virtual Private Gateway, Route table, Endpoints, DNS resolver)
