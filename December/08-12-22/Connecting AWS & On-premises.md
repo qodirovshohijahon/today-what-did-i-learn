@@ -15,15 +15,15 @@
 
 **:one: Connecting On-Premises with VPC via VPN (Virtual Private Gateway)**
     
-    Amazon VPN gateway is very cost-effective Managed Service Solution available to connect the On-Premises to AWS VPC. VPN gateway is logical network gateway device, which establish IPSec VPN tunnel from AWS VPN to on-Premises VPN Device.
+   - Amazon VPN gateway is very cost-effective Managed Service Solution available to connect the On-Premises to AWS VPC. VPN gateway is logical network gateway device, which establish IPSec VPN tunnel from AWS VPN to on-Premises VPN Device.
 
-    For each VPN connection, two public tunnel endpoints are created, which enables automatic failover from VPN Gateway device, as shown in below figure
+   - For each VPN connection, two public tunnel endpoints are created, which enables automatic failover from VPN Gateway device, as shown in below figure
 
-    ![](./../img/5.mceu_79841134011630569887240.png)
+![](./../img/5.mceu_79841134011630569887240.png)
 
-    With this Service, from one VPN gateway, we can be able to connect to Multiple remote sites, but no transient traffic can pass through VPN gateway.
+   - With this Service, from one VPN gateway, we can be able to connect to Multiple remote sites, but no transient traffic can pass through VPN gateway.
 
-    ![](./../img/6.mceu_51463664721630569902679.png)
+![](./../img/6.mceu_51463664721630569902679.png)
 
 **VPN Gateway Limits**
 - By Default, Each AWS Account, has limit to create up to 50 Site-to-Site Connection Per region and up to 10 Site-to-Site connection Per VGW.
@@ -60,7 +60,7 @@ Now for traffic between Server & Client, which are not on VPN, for those type of
 
 Below dig shows how AWS Direct Connect can be used to connect AWS VPC to On-Premise’s network.
 
-    ![](../img/7.mceu_62655324131630569963014.png)
+![](../img/7.mceu_62655324131630569963014.png)
 
 
 
