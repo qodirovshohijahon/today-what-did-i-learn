@@ -1,0 +1,9 @@
+**Что означает такое название инстанса m6ad.xlarge (нужно мочь объяснить значение каждой буквы/цифры в первой части до точки, вспомнить что есть Instance Store)**
+
+- amazon EC2 **m6a** instances are powered by 3rd generation AMD EPYC processors, 
+
+- deliver up to 35% better price performance compared to M5a instances, and 10% lower cost than comparable x86-based EC2 instances. 
+
+- m6a instances feature a 4:1 ratio of memory to vCPU, just like M5a instances and support increased sizes up to 192 vCPUs per instance. 
+
+- these instances are SAP-Certified and are ideal for workloads such as backend servers supporting enterprise applications (e.g. Microsoft Exchange and SharePoint, SAP Business Suite, MySQL, Microsoft SQL Server, and PostgreSQL databases), multi-player gaming servers, caching fleets, as well as for application development environments.
