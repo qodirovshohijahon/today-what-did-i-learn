@@ -4,9 +4,10 @@
 
 **:one: Connect Your Data Center to AWS (Direct Connect)**
 
-   ![](./../img/8.typesofec2instances768x384.png)
+![](./../img/8.typesofec2instances768x384.png)
 
    - **:one: Memory-Optimized Instances** : 
+
      - are geared for workloads that need huge datasets to be processed in memory.
 
      - memory here defines RAM which allows us to do multiple tasks at a time. 
@@ -27,8 +28,8 @@
 
     **Examples:**
 
-      - If your application uses a relational or non-relational database and needs to handle data quickly.
-      - Processes that do not need a big quantity of data yet require speedy and real-time processing. 
+    - If your application uses a relational or non-relational database and needs to handle data quickly.
+    - Processes that do not need a big quantity of data yet require speedy and real-time processing. 
 
    - **:two: Compute-Optimized Instances:**
 
@@ -42,9 +43,9 @@
 
     **Examples:**
 
-      - applications that require high server performance or that employ a machine learning model will benefit from compute-optimized instances.
+    - applications that require high server performance or that employ a machine learning model will benefit from compute-optimized instances.
       
-      - if you have some batch processing workloads or high-performance computing.   
+    - if you have some batch processing workloads or high-performance computing.   
 
    - **:three:General-Purpose Instances:** 
      - the computation, memory, and networking resources in general-purpose instances are balanced.
@@ -57,9 +58,9 @@
 
     **Examples:**
     
-      - the applications that require computing, storage, networking, server performance, or want something from everything, can utilize general-purpose instances.
+    - the applications that require computing, storage, networking, server performance, or want something from everything, can utilize general-purpose instances.
       
-      - if high-performance CPUs are not required for your applications, you can go for general purpose instances.
+    - if high-performance CPUs are not required for your applications, you can go for general purpose instances.
 
    - **:four:Storage Optimized Instances:**
      - storage optimized instances are made for workloads that demand fast, sequential read and write access to huge datasets.
@@ -70,9 +71,9 @@
 
     **Examples:**
 
-      - the applications which high processing of databases, can utilize storage optimized instances.
-     
-      - data Warehousing applications or distributed file systems can use it.
+    - the applications which high processing of databases, can utilize storage optimized instances.
+    
+    - data Warehousing applications or distributed file systems can use it.
 
    - **:five: Accelerated Computing Instances:** 
      - coprocessors are used in accelerated computing instances to execute specific operations more effectively than software running on CPUs. 
@@ -83,9 +84,9 @@
 
     **Examples:**
 
-      - if the application utilizes floating-point calculations or graphics processing, accelerated computing instances will be the best amongst all.
+    - if the application utilizes floating-point calculations or graphics processing, accelerated computing instances will be the best amongst all.
      
-      - also, data pattern matching can be done more efficiently with this instance type.
+    - also, data pattern matching can be done more efficiently with this instance type.
 
 
 
