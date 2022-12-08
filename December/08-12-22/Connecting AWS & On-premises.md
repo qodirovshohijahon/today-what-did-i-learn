@@ -70,3 +70,12 @@ Below dig shows how AWS Direct Connect can be used to connect AWS VPC to On-Prem
 - Need for device, that support Single-Mode Fiber Connection with 1000BASE-LX or 10GBASE-LR transceiver.
 - Device must support , Port Speed and full duplex mode configuration manually .
 - Device must support BGP , BGP MD5 Authentication along with 802.1Q VLAN Encapsulation across entire connection.
+
+
+**How to Secure Direct Connect**
+
+- The Direct Connect link is used to connect Private network, but this link might be passing through several Service provider device, due to which, the traffic can be sniffed in between on any of the compromised device or even can be compromised on compromised links between devices.
+
+- In order to secure your traffic, We can enable IPSec VPN tunnel on direct connect link, which encrypt the traffic passing between on-premises and AWS VPN.
+
+- The only Drawback of securing links via IPSEC tunnel is that we have to use same VGW for establishing IPSec tunnels, So Limitations of VGW devices applies here.
