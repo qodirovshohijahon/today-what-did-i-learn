@@ -46,6 +46,31 @@
    - after they have established the VPN session, they can securely access the resources in the VPC in which the associated subnet is located. 
    - they can also access other resources in AWS or an on-premises network if the required route and authorization rules have been configured. 
 
+**:four: Site-to-Site VPN routing options**
+
+   -  When you create a Site-to-Site VPN connection, you must do the following:
+      -  Specify the type of routing that you plan to use (**static or dynamic**)
+      -  Update the route table for your subnet
+
+   - **Static and dynamic routing**
+     - the type of routing that you select can depend on the make and model of your customer gateway device. 
+     - if your customer gateway device **supports** `Border Gateway Protocol` (BGP), specify **dynamic** routing 
+     - if your customer gateway device **does not support** `BGP`, specify **static** routing.
+
+
+     - we recommend that you use BGP-capable devices, when available, because the BGP protocol offers **robust liveness detection** checks that can assist failover to the second VPN tunnel if the first tunnel goes down. 
+     - devices that don't support BGP may also perform health checks to assist failover to the second tunnel when needed. 
+
+
+**:five: Route tables and VPN route priority**
+   - **Route Table**
+     - it determines where network traffic from your VPC is directed. 
+
+     - in your VPC route table, you must add a route for your remote network and specify the virtual private gateway as the target.
+
+     - this enables traffic from your VPC that's destined for your remote network to route via the virtual private gateway and over one of the VPN tunnels. 
+
+     - you can enable route propagation for your route table to automatically propagate your network routes to the table for you.
 
 
 
@@ -88,13 +113,8 @@
       - For static routing, the IP prefixes for your private network.
       - (Optional) Tunnel options for each VPN tunnel. For more information, see Tunnel options for your Site-to-Site VPN connection.
 
+- To establish a VPN connection between your VPC and your on-premises network, you must create a **target gateway** on the AWS side of the connection. 
+- the target gateway can be a **virtual private gateway** or a **transit gateway**.
+- after you create a virtual private gateway, you must attach it to your VPC.
 
 
-
-
-
-
-
-
-
- 
