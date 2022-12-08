@@ -1,6 +1,6 @@
 **1. Какие типы инстансов вы знаете? (Нужно разобраться какие основные типы инстансов есть, мочь идентифицировать их назначение по буквам)**
 
-    ![](./../img/10.ec2-instance-types-comparison.jpg)
+![](./../img/10.ec2-instance-types-comparison.jpg)
 
 **:one: Connect Your Data Center to AWS (Direct Connect)**
 
