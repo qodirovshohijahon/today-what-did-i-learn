@@ -37,3 +37,6 @@
 **AWS Key Management Service** (AWS KMS) – 
 - AWS KMS makes it easy for you to create and manage cryptographic keys and control their use across a wide range of AWS services and in your applications. 
 - this solution uses AWS KMS to make sure that the build and deployment artifacts stored on the S3 bucket are encrypted at rest.
+
+
+![](../img/16.Screen-Shot-2020-09-30-at-6.05.53-PM.png)
